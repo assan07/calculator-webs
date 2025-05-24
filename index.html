@@ -10,41 +10,50 @@
   <body>
     <div class="container">
       <div class="call-body">
-        <div class="input-form">pkk</div>
+        <div class="input-form">
+          <p class="num-input" id="numInput"></p>
+          <p class="result" id="result"></p>
+        </div>
         <div class="call-input">
           <div class="num-call">
             <div class="delete_num-mod-menu">
-              <button class="btn">AC</button>
-              <button class="btn">C</button>
-              <button class="btn">Mod</button>
+              <button class="btn" id="allClear">AC</button>
+              <button class="btn" id="clear">C</button>
+              <button class="btn" id="modulus">Mod</button>
             </div>
 
             <div class="first_row_num">
-              <button class="btn">7</button><button class="btn">8</button
-              ><button class="btn">9</button>
+              <button class="btn" value="7">7</button
+              ><button class="btn" value="8">8</button
+              ><button class="btn" value="9">9</button>
             </div>
 
             <div class="second_row_num">
-              <button class="btn">4</button><button class="btn">5</button
-              ><button class="btn">6</button>
+              <button class="btn" value="4">4</button
+              ><button class="btn" value="5">5</button
+              ><button class="btn" value="6">6</button>
             </div>
 
             <div class="third_row_num">
-              <button class="btn">1</button><button class="btn">2</button
-              ><button class="btn">3</button>
+              <button class="btn" value="1">1</button
+              ><button class="btn" value="2">2</button
+              ><button class="btn" value="3">3</button>
             </div>
 
             <div class="fourth_row_num">
-              <button class="btn">%</button><button class="btn">0</button
-              ><button class="btn">.</button>
+              <button class="btn" value="%">%</button
+              ><button class="btn">0</button
+              ><button class="btn" value=".">.</button>
             </div>
           </div>
 
           <div class="arithmatic-operators">
             <div class="btn-arithmatic">
-              <button class="btn">X</button><button class="btn">/</button
-              ><button class="btn">+</button><button class="btn">-</button
-              ><button class="btn">=</button>
+              <button class="btn" id="multiplication">X</button
+              ><button class="btn" id="division">/</button
+              ><button class="btn" id="plus">+</button
+              ><button class="btn" id="minus">-</button
+              ><button class="btn" id="results">=</button>
             </div>
           </div>
         </div>
