@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kalkulator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="call-body">
+        <div class="input-form">pkk</div>
+        <div class="call-input">
+          <div class="num-call">
+            <div class="delete_num-mod-menu">
+              <button class="btn">AC</button>
+              <button class="btn">C</button>
+              <button class="btn">Mod</button>
+            </div>
+
+            <div class="first_row_num">
+              <button class="btn">7</button><button class="btn">8</button
+              ><button class="btn">9</button>
+            </div>
+
+            <div class="second_row_num">
+              <button class="btn">4</button><button class="btn">5</button
+              ><button class="btn">6</button>
+            </div>
+
+            <div class="third_row_num">
+              <button class="btn">1</button><button class="btn">2</button
+              ><button class="btn">3</button>
+            </div>
+
+            <div class="fourth_row_num">
+              <button class="btn">%</button><button class="btn">0</button
+              ><button class="btn">.</button>
+            </div>
+          </div>
+
+          <div class="arithmatic-operators">
+            <div class="btn-arithmatic">
+              <button class="btn">X</button><button class="btn">/</button
+              ><button class="btn">+</button><button class="btn">-</button
+              ><button class="btn">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document
+        .getElementById("calculator-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          const num1 = parseFloat(document.getElementById("num1").value);
+          const num2 = parseFloat(document.getElementById("num2").value);
+          const result = num1 + num2;
+          document.getElementById("result").innerText = "Hasil: " + result;
+        });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
