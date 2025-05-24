@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #333;
+}
+
+@media (max-width: 412px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #00000000;
+  }
+
+  .call-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00000000;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    background-color: #000000;
+    text-align: end;
+    color: #efbf04;
+    font-size: 36px;
+  }
+
+  .call-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    height: 75vh;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .num-call {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .delete_num-mod-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 19px;
+  }
+
+  .first_row_num {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 19px;
+  }
+
+  .second_row_num {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 19px;
+  }
+
+  .third_row_num {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 19px;
+  }
+
+  .fourth_row_num {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 19px;
+  }
+
+  .btn {
+    padding: 10px 10px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #efbf04;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 4px 4px #efbf04;
+  }
+
+  .btn:hover {
+    background-color: #ffe60820;
+  }
+
+  .btn:active {
+    background-color:  #efbf04;
+    color: #000000;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+  }
+
+  .arithmatic-operators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px ;
+  }
+
+  .btn-arithmatic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+
+  }
+}
